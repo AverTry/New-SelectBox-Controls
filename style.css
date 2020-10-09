@@ -1,0 +1,152 @@
+    /*	Dropdowns */
+
+    .MySelectBox {
+        min-width: 120px;
+    }
+
+    .btn:focus {
+        box-shadow: none !important;
+    }
+
+    /*	DropDown Arrow Spacing*/
+
+    .dropdown-toggle::after {
+        margin-left: .555em;
+    }
+
+    /*	MySelectBox Editable*/
+
+    .MySelect input:focus,
+    .MySelect input:hover {
+        color: #000 !important;
+    }
+
+    .MySelect input:read-only:hover,
+    a {
+        cursor: pointer !important;
+        background-color: darkgrey;
+        color: whitesmoke !important;
+    }
+
+    .form-control-plaintext {
+        outline: none;
+        padding: 2px 15px;
+    }
+
+    .add,
+    .del {
+        display: none;
+    }
+
+    .del {
+        color: red;
+    }
+
+    .del:hover {
+        color: white;
+        background-color: red;
+    }
+
+    .add:hover,
+    .ok:hover {
+        z-index: 77;
+    }
+
+    .MySelect {
+        min-width: 170px;
+        max-height: 220px;
+        overflow-y: auto;
+        overflow-x: hidden;
+    }
+
+    /*Bootstrap 4 Classes List*/
+
+    .bs4-drop.show {
+        min-width: 8rem;
+        max-width: 12rem;
+        padding: 0 0;
+        margin: 0 0 0;
+    }
+
+    #myInput1 {
+        box-sizing: border-box;
+        width: 90%;
+        background-image: url('SearchIcon3.png');
+        background-position: -2px 0px;
+        background-size: contain;
+        background-repeat: no-repeat;
+        font-size: 16px;
+        padding: 3px;
+        padding-left: 40px;
+        border: 1px solid grey;
+        background-color: #2d5c8a;
+        outline: none;
+        margin: 11px;
+    }
+
+    #myInput1:focus {
+        background-image: url('SearchIcon4.png');
+        border-bottom: 1px solid #ddd;
+        background-color: #9bb8d4;
+    }
+
+    /* Scrolling the Bar */
+
+    *::-webkit-scrollbar,
+    *::-webkit-scrollbar-thumb {
+        width: 5px;
+        scrollbar-width: 5px;
+        border-radius: 1.5px;
+        background-color: #336699;
+    }
+
+    .show::-webkit-scrollbar {
+        background-color: #2d5c8a;
+    }
+
+    .show::-webkit-scrollbar-thumb {
+        background-color: orange;
+    }
+
+    .bs4-list {
+        background-color: #336699;
+        max-height: 300px;
+        overflow: auto;
+        width: 224px;
+    }
+
+    .bs4-list ul {
+        text-align: center;
+        font-weight: bold;
+        margin: 0 0 0 -42px;
+        list-style-type: none;
+    }
+
+    .bs4-list ul span {
+        color: #ddd;
+        width: 90%;
+        /*		margin: 3px auto -1px;*/
+        margin: 14px 0 2px 14px;
+        display: block;
+        background-color: #2d5c8a;
+    }
+
+    .bs4-list li {
+        color: darkgrey;
+        text-align: left;
+        font-weight: normal;
+        padding: 7px 18px;
+        margin: 4px 0 2px 0;
+        cursor: pointer;
+    }
+
+    .bs4-list li:hover {
+        color: aliceblue;
+        background-color: #2d5c8a;
+    }
+
+    .StayInPlace {
+        background-color: #336699;
+        margin-bottom: -3px;
+        width: 224px;
+    }
