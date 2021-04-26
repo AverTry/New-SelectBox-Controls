@@ -12,3 +12,6 @@ In this Demo text is saved to local storage, but MySQL or JSON is possible.
 
 ![](ImgMD/2020-10-09-16-00-26.png)
 
+Test it out:
+
+https://avertry.github.io/New-SelectBox-Controls/
